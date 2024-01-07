@@ -11,13 +11,14 @@ body {
 /* header related styles */
 
 header {
-  margin: 50px 140px 0;
+  margin: 0 auto;
   width: 1320px;
   height: 600px;
   background-image: url("../images/banner.png");
 }
 
 .banner {
+  margin-top: 50px;
   padding: 180px 282px;
   border-radius: 20px;
   background: linear-gradient(180deg, #070211 1%, rgba(7, 2, 17, 0) 100%);
@@ -41,10 +42,14 @@ header {
 /* discount section styles starts here */
 
 .discount {
-  margin-top: 120px;
+  margin: 0 auto;
   width: 1600px;
   height: 735px;
   text-align: center;
+}
+
+.discount-content {
+  margin-top: 120px;
 }
 
 .offer {
@@ -74,13 +79,14 @@ header {
 /* welcome styles starts here */
 
 .welcome {
-  margin: 120px 130px 0;
+  margin: 0 auto;
   width: 1320px;
   height: 600px;
   background-image: url("../images/vectorr.png");
 }
 
 .welcome-content {
+  margin-top: 120px;
   display: flex;
   justify-content: space-around;
   padding: 76px 182px 67px 126px;
@@ -131,13 +137,14 @@ header {
 /* venue styles starts here */
 
 .places {
-  margin: 120px 140px 0;
+  margin: 0 auto;
   width: 1320px;
   height: 482px;
   text-align: center;
 }
 
 .places-container {
+  margin-top: 120px;
   padding: 100px 380px;
   border-radius: 20px;
   align-items: center;
@@ -152,7 +159,7 @@ header {
   color: #070211;
   font-size: 25px;
   align-items: center;
-  line-height: 56px; 
+  line-height: 56px;
   font-weight: 600;
   text-transform: capitalize;
 }
@@ -169,6 +176,69 @@ header {
   gap: 10px;
 }
 
-.same-color{
-    color: #F00;
+.same-color {
+  color: #f00;
+}
+
+/* best offer styles starts here */
+
+.best-offer {
+  margin: 0 auto;
+  width: 1320px;
+  height: 482px;
+}
+
+.best-offer-container {
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  justify-content: space-between;
+}
+
+.best-offer-title {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.best-offer-heading {
+  color: #070211;
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.best-offer-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.together-img {
+  width: 364.844px;
+  height: 364.844px;
+  border-radius: 364.844px;
+  border: 10px solid #f00;
+  padding: 20px;
+}
+
+.best-offer-year {
+  color: #f00;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.best-offer-year-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.new-year-img {
+  width: 140px;
+  height: 140px;
+  margin-top: 40px;
 }
