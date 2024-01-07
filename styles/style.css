@@ -11,13 +11,10 @@ body {
 /* header related styles */
 
 header {
-  width: 82%;
-  max-width: 1320px;
+  margin: 50px 140px 0;
+  width: 1320px;
   height: 600px;
-  margin: 0 auto;
-  border-radius: 16px 16px 16px 16px;
   background-image: url("../images/banner.png");
-  margin-top: 40px;
 }
 
 .banner {
@@ -45,7 +42,7 @@ header {
 .discount {
   margin-top: 120px;
   width: 1600px;
-  height: 7335px;
+  height: 735px;
   text-align: center;
 }
 
@@ -68,7 +65,70 @@ header {
   font-weight: 700;
   margin-bottom: 35px;
 }
-.offer-img{
-    width: 700px;
+.offer-img {
+  width: 700px;
+  height: 500px;
 }
 
+/* welcome styles starts here */
+
+.welcome {
+  margin: 120px 130px 0;
+  width: 1320px;
+  height: 600px;
+  background-image: url("../images/vectorr.png");
+ 
+}
+
+.welcome-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 76px 182px 67px 126px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.welcome-title {
+  color: #fff;
+  font-family: Merriweather;
+  width: 642px;
+  font-size: 64px;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+.welcome-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  width: 697px;
+}
+
+.welcome-button {
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 15px;
+  font-weight: 700;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: pink;
+  margin-top: 24px;
+  border: none;
+}
+
+.welcome-img {
+    display: flex;
+    width: 319.83px;
+    height: 464.662px;
+    padding: 0.008px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+} 
+/* venue styles starts here */
+
+.places {
+  margin-top: 120px;
+}
