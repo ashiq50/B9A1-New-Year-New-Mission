@@ -39,3 +39,36 @@ header {
   font-size: 59px;
   font-weight: 900;
 }
+
+/* discount section styles starts here */
+
+.discount {
+  margin-top: 120px;
+  width: 1600px;
+  height: 7335px;
+  text-align: center;
+}
+
+.offer {
+  color: #f00;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.offer-description {
+  color: #f00;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.offer-category {
+  color: #070211;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+.offer-img{
+    width: 700px;
+}
+
