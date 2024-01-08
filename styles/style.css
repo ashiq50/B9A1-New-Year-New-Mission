@@ -306,7 +306,6 @@ header {
 .portfolio {
   margin: 0 auto;
   width: 1320px;
-  height: 733px;
 }
 
 .portfolio-container {
@@ -335,10 +334,70 @@ header {
   font-weight: 400;
 }
 
-.portfolio-image-container{
-    margin-top: 40px;
-    display:inline-block
-    
-   
+.portfolio-image-container {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
+/* news letter section styles */
+
+.newsletter {
+  margin: 0 auto;
+  width: 1320px;
+  height: 616px;
+}
+
+.newsletter-container {
+  margin-top: 120px;
+  border-radius: 16px;
+  padding: 80px 210px;
+  background: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe {
+  text-align: center;
+}
+
+.subscribe img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 40px;
+}
+
+.subscribe h2 {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.subscribe p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.subscription-form {
+  display: flex;
+  margin: 20px auto;
+}
+.input-form {
+  max-width: 648px;
+  height: 72px;
+  flex-grow: 1;
+  padding: 25px auto;
+  border-radius: 40px 0px 0px 40px;
+  background: #fff;
+}
+
+.button-form {
+  width: 210px;
+  height: 72px;
+  border-radius: 0px 40px 40px 0px;
+  background: #f00;
+}
