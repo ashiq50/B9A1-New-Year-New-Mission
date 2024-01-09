@@ -438,6 +438,10 @@ footer {
 }
 
 .contact-info p a{
+  color: #fff;
+}
+
+.contact-info p a{
     text-decoration: none;
 }
 
