@@ -399,7 +399,9 @@ header {
 
 .button-form {
   width: 210px;
-  height: 72px;
+  height: 70px;
+  border: none;
+  outline: none;
   border-radius: 0px 40px 40px 0px;
   background: #f00;
 }
